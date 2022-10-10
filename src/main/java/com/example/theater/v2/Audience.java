@@ -1,8 +1,5 @@
 package com.example.theater.v2;
 
-import com.example.theater.v1.Bag;
-import com.example.theater.v1.Ticket;
-
 public class Audience {
     private Bag bag;
 

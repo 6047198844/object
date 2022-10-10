@@ -1,4 +1,4 @@
-package com.example.theater.v2;
+package com.example.theater.v3;
 
 public class TicketSeller {
     private TicketOffice ticketOffice;
@@ -12,6 +12,6 @@ public class TicketSeller {
     }
 
     public void sellTo(Audience audience) {
-        ticketOffice.plusAmount(audience.buy(ticketOffice.getTicket()));
+        ticketOffice.sellTicketTo(audience);
     }
 }
